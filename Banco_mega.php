@@ -1,7 +1,7 @@
 
 <?php
 
-$nome_servidor = "Github";
+$nome_servidor = "localhost";
 $nome_usuario = "boot";
 $senha = "";
 $nome_banco = "MsgBanco";   
