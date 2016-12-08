@@ -9,7 +9,7 @@ $conecta = new mysqli($nome_servidor,$nome_usuario,$senha,$nome_banco);
 if ($conecta->connect_error) {
 die("A Conexão falhou: " . $conecta->connect_error."<br>");
 }
-		echo "Conexão realizada com sucesso <br>";
+		echo "Conexão realizada !! <br>";
  $sql = "SELECT id,conversa, megasena FROM conversa";
     $result = $conecta->query($sql);
         if ($result->num_rows > 0) {
